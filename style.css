@@ -6,12 +6,11 @@
 }
 
 body {
-    height: 695px;
 }
 
 .main {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -73,4 +72,22 @@ input::placeholder {
 }
 #temp{
     margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:769px) {
+    .all{
+        width: 35%;
+    }
+    .all p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:500px) {
+    .all{
+        width: 70%;
+    }
+    .all p{
+        font-size: 18px;
+    }
 }
